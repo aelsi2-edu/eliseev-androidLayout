@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="50px"
+            android:src="@android:drawable/ic_lock_lock"
+            android:contentDescription="random image"
+            />
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="10pt"
+            android:layout_margin="50px"
+            android:text="Text"/>
+        <ImageSwitcher
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="50px"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_margin="50px"
+            android:layout_weight="1"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:textSize="14pt"
+            android:text="Text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="20pt"
+            android:layout_margin="50px"
+            android:text="Tex"/>
+        <ImageView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="50px"
+            android:src="@android:drawable/btn_dialog"
+            android:contentDescription="random image"
+            />
+
+        <ListView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="50px"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_margin="50px"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_lock"
+            android:contentDescription="random image"/>
+    </LinearLayout>
+</LinearLayout>
